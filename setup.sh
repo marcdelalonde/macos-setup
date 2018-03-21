@@ -33,6 +33,7 @@ function installcask() {
 
 # dev-related programs
 installcask sublime-text
+installcask sourcetree
 installcask dropbox
 installcask google-chrome
 installcask firefox
