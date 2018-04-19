@@ -17,3 +17,7 @@ To hide the username in the console, just add this line in the ~/.zshrc file
 ```shell
 DEFAULT_USER=$USER
 ```
+
+## Install Apple TV Aerial Screensaver
+
+Follow instructions here: https://github.com/JohnCoates/Aerial
