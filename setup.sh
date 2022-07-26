@@ -31,6 +31,7 @@ brew install --cask iterm2
 brew install --cask sourcetree
 
 # utils
+brew install --cask notion
 brew install --cask whatsapp
 brew install --cask messenger
 brew install --cask todoist
