@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # brew setup
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -24,27 +23,23 @@ brew install wget
 brew install tig
 brew install ffind
 
-# OSX native apps
-brew tap caskroom/cask
-
-function installcask() {
-    brew cask install "${@}" 2> /dev/null
-}
-
 # dev-related programs
-installcask sublime-text
-installcask visual-studio-code
-installcask dropbox
-installcask google-chrome
-installcask firefox
-installcask iterm2
-installcask franz
+brew install --cask visual-studio-code
+brew install --cask dropbox
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask iterm2
+brew install --cask sourcetree
 
 # utils
-installcask skype
-installcask spotify
-installcask vlc
-installcask 1password
-installcask slack
-installcask discord
+brew install --cask whatsapp
+brew install --cask messenger
+brew install --cask todoist
+brew install --cask docker
+brew install --cask loom
+brew install --cask spotify
+brew install --cask vlc
+brew install --cask 1password
+brew install --cask slack
+brew install --cask discord
 
